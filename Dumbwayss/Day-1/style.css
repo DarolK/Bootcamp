@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #ffffff;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+
+
+.text {
+    max-width: 500px;
+}
+
+
+.text h1 {
+    font-size: 48px;
+    color: #0f2d26;
+    margin: 10px 0;
+}
+
+.text p {
+    margin: 8px 0;
+    line-height: 1.4;
+}
+
+.image img {
+    width: 350px;
+    border-radius: 50vh;
+}
+
+
+
+
+.sosmed a {
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 8px 12px;
+    background: #001812;
+    color: white;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: 0.3s;
+}
+
+.sosmed a:hover {
+    background: #c2951b;
+    transform: scale(1.1);
+}
